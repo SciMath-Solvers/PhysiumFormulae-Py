@@ -1,2 +1,3 @@
 # PhysiumFormulae-Py
-python Physium Formulae!
+## NEWS: Physium Formulae has come to Python!
+And it has <i>3</i> versions!
