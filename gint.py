@@ -12,7 +12,7 @@ DHEIGHT = 528
 # DWIDTH = 396
 # DHEIGHT = 224
 
-C_WHITE = 0xFFFF
+C_WHITE = 0xFFFFFF
 C_LIGHT = 0xad55
 C_DARK  = 0x528a
 C_BLACK = 0x0000
@@ -33,7 +33,7 @@ DTEXT_BOTTOM = 'bottom'
 # Pygame initialization
 pygame.init()
 screen = pygame.display.set_mode((DWIDTH, DHEIGHT))
-pygame.display.set_caption("ClassPad")
+pygame.display.set_caption("PythonExtra for the ClassPad Output")
 vram = pygame.Surface((DWIDTH, DHEIGHT))
 clock = pygame.time.Clock()
 FPS = 100  # Adjust to control game speed
